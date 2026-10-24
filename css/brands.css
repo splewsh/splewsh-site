@@ -43,19 +43,7 @@
 }
 
 .button.vod-channel {
-	background:linear-gradient(135deg,#7b2ff7,#b13cff);
-	border:2px solid #e0b3ff;
-	border-radius:14px;
-	color:#fff;
-	box-shadow:0 4px 12px rgba(123,47,247,0.35);
-	transition:transform 0.2s ease,box-shadow 0.2s ease;
-}
-
-.button.vod-channel:hover {
-	transform:translateY(-3px);
-	box-shadow:0 7px 18px rgba(123,47,247,0.5);
-}
-
-.button.vod-channel .icon {
-	filter:brightness(0) invert(1);
+	--button-text:#ffffff;
+	--button-background:#1d1a1a;
+	--button-border:1px solid #FFFFFF;
 }
