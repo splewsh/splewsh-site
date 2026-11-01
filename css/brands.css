@@ -19,6 +19,12 @@
 	filter:var(--icon-filter,none);
 }
 
+.button.button-default {
+	--button-text:#ffffff;
+	--button-background:#2457F5;
+	--button-border:1px solid #ffffff;
+}
+
 /* Brand-specific button styles */
 .button-discord {
 	--button-text:#ffffff;
