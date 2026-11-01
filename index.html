@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-
-<!--
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
--->
-
-<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
-
+<html class="theme-dark" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>Splewsh</title>
-    <link rel="icon" type="image/png" href="images/avatar.png"> <!-- Update this with your own favicon -->
-
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <link rel="icon" type="image/png" href="images/avatar.png">
     <meta name="description" content="occasional gaming">
-
-    <!-- Canonical URL - Helps prevent duplicate content issues -->
     <link rel="canonical" href="https://splewsh.uk">
-
-    <!-- Author Information -->
     <meta name="author" content="Splewsh">
 
     <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
@@ -42,7 +25,7 @@
     <meta name="twitter:card" content="summary">
     -->
 
-    <!-- Font Preloads - Lets the browser fetch fonts in parallel with the stylesheets -->
+    <!-- Font Preloads -->
     <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2" as="font" type="font/woff2" crossorigin>
@@ -51,25 +34,22 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
-
   </head>
 
-<body>
-
+  <body>
     <div class="container">
         <div class="column">
           <main>
-
             <img class="avatar avatar--rounded" src="images/avatar.png" alt="Splewsh" width="128" height="128" fetchpriority="high">
-
             <h1>Splewsh</h1>
-
             <p>occasional gaming</p>
 
             <nav class="button-stack" aria-label="Links">
-
               <!-- Ko-fi -->
               <a class="button button-ko-fi" href="https://kofi.splewsh.uk" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/ko-fi.svg" alt="Ko-fi Logo">Donate on Ko-Fi</a>
+
+              <!-- Merch -->
+              <a class="button button-default" href="https://shop.splewsh.uk" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-shopping-bag.svg" alt="Shopping Bag Icon">Merch</a>
 
               <!-- Discord -->
               <a class="button button-discord" href="https://discord.splewsh.uk" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/discord.svg" alt="Discord Logo">Discord</a>
@@ -82,17 +62,12 @@
 
               <!-- VOD Channel -->
               <a class="button button-youtube vod-channel" href="https://www.youtube.com/channel/UCyRMPHTjFH87NQdy9N88wMw" target="_blank" rel="noopener"><img src="images/icons/youtube.svg" alt="" class="icon">VOD Channel</a>
-
-      </nav>
-      </main>
-
-      <footer>
-        <a href="privacy.html">Privacy Policy</a>
-      </footer>
-
+            </nav>
+          </main>
+          <footer>
+            <a href="privacy.html">Privacy Policy</a>
+          </footer>
+        </div>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
